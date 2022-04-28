@@ -11,6 +11,10 @@ module.exports = {
         orange2: '#FF7044',
         light1: '#FFFFFF',
       },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        avenir: ['Nunito', 'sans-serif'],
+      },
     },
   },
   plugins: [],

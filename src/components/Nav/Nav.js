@@ -12,7 +12,7 @@ const Nav = () => {
     <nav>
       <ul className='flex'>
         {navItems.map((el) => (
-          <li className='mr-10' key={el._id}>
+          <li className='mr-10 text-dark2 text-base font-medium' key={el._id}>
             {el.item}
           </li>
         ))}

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../logo.png';
-import Buttons from '../design/Buttons/Buttons';
+import Button from '../design/Buttons/Button';
 import Nav from '../Nav/Nav';
 
 const Header = () => {
@@ -10,9 +10,10 @@ const Header = () => {
         <div>
           <img className='w-52' src={logo} alt='Traveler Network Logo' />
         </div>
-        <div>
+        <div className='flex items-center'>
           <Nav />
-          <Buttons text='Register' />
+          <Button className='bg-blue1 mr-3' text='Register' />
+          <Button className='bg-dark1' text='Admin' />
         </div>
       </div>
     </header>
