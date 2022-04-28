@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../logo.png';
+import Buttons from '../design/Buttons/Buttons';
 import Nav from '../Nav/Nav';
 
 const Header = () => {
@@ -11,6 +12,7 @@ const Header = () => {
         </div>
         <div>
           <Nav />
+          <Buttons text='Register' />
         </div>
       </div>
     </header>
